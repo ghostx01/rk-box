@@ -1,0 +1,77 @@
+/* automatically generated from save-playlist.ui */
+#ifdef __SUNPRO_C
+#pragma align 4 (save_playlist_ui)
+#endif
+#ifdef __GNUC__
+static const char save_playlist_ui[] __attribute__ ((__aligned__ (4))) =
+#else
+static const char save_playlist_ui[] =
+#endif
+{
+  "<?xml version=\"1.0\" encoding=\"UTF-8\"?><interface><requires lib=\"gt"
+  "k+\" version=\"3.2\"/><object class=\"GtkListStore\" id=\"liststore\"><"
+  "columns><column type=\"gchararray\"/><column type=\"gchararray\"/><colu"
+  "mn type=\"guint\"/></columns><data><row><col id=\"0\" translatable=\"ye"
+  "s\">By Extension</col><col id=\"1\"></col><col id=\"2\">0</col></row></"
+  "data></object><object class=\"GtkFileChooserDialog\" id=\"filechooserdi"
+  "alog\"><property name=\"can_focus\">False</property><property name=\"bo"
+  "rder_width\">5</property><property name=\"title\" translatable=\"yes\">"
+  "Save Playlist as\342\200\246</property><property name=\"role\">GtkFileC"
+  "hooserDialog</property><property name=\"window_position\">center-on-par"
+  "ent</property><property name=\"icon_name\">parole</property><property n"
+  "ame=\"type_hint\">dialog</property><property name=\"action\">save</prop"
+  "erty><property name=\"do_overwrite_confirmation\">True</property><child"
+  " internal-child=\"vbox\"><object class=\"GtkBox\" id=\"filechooserdialo"
+  "g-vbox1\"><property name=\"can_focus\">False</property><property name=\""
+  "orientation\">vertical</property><property name=\"spacing\">2</property"
+  "><child internal-child=\"action_area\"><object class=\"GtkButtonBox\" i"
+  "d=\"filechooserdialog-action_area1\"><property name=\"can_focus\">False"
+  "</property><property name=\"layout_style\">end</property><child><object"
+  " class=\"GtkButton\" id=\"button1\"><property name=\"label\">gtk-close<"
+  "/property><property name=\"visible\">True</property><property name=\"ca"
+  "n_focus\">True</property><property name=\"receives_default\">False</pro"
+  "perty><property name=\"use_stock\">True</property></object><packing><pr"
+  "operty name=\"expand\">False</property><property name=\"fill\">True</pr"
+  "operty><property name=\"position\">0</property></packing></child><child"
+  "><object class=\"GtkButton\" id=\"button2\"><property name=\"label\">gt"
+  "k-save</property><property name=\"visible\">True</property><property na"
+  "me=\"can_focus\">True</property><property name=\"can_default\">True</pr"
+  "operty><property name=\"has_default\">True</property><property name=\"r"
+  "eceives_default\">True</property><property name=\"use_stock\">True</pro"
+  "perty></object><packing><property name=\"expand\">False</property><prop"
+  "erty name=\"fill\">True</property><property name=\"position\">1</proper"
+  "ty></packing></child></object><packing><property name=\"expand\">False<"
+  "/property><property name=\"fill\">True</property><property name=\"pack_"
+  "type\">end</property><property name=\"position\">0</property></packing>"
+  "</child><child><object class=\"GtkExpander\" id=\"expander1\"><property"
+  " name=\"visible\">True</property><property name=\"can_focus\">True</pro"
+  "perty><child><object class=\"GtkTreeView\" id=\"treeview\"><property na"
+  "me=\"visible\">True</property><property name=\"can_focus\">True</proper"
+  "ty><property name=\"model\">liststore</property><property name=\"rules_"
+  "hint\">True</property><property name=\"enable_search\">False</property>"
+  "<property name=\"enable_grid_lines\">vertical</property><property name="
+  "\"enable_tree_lines\">True</property><signal name=\"cursor-changed\" ha"
+  "ndler=\"parole_media_list_format_cursor_changed_cb\" swapped=\"no\"/><c"
+  "hild internal-child=\"selection\"><object class=\"GtkTreeSelection\" id"
+  "=\"treeview-selection1\"/></child><child><object class=\"GtkTreeViewCol"
+  "umn\" id=\"treeviewcolumn1\"><property name=\"title\" translatable=\"ye"
+  "s\">File Type</property><property name=\"expand\">True</property><child"
+  "><object class=\"GtkCellRendererText\" id=\"cellrenderertext1\"/><attri"
+  "butes><attribute name=\"text\">0</attribute></attributes></child></obje"
+  "ct></child><child><object class=\"GtkTreeViewColumn\" id=\"treeviewcolu"
+  "mn2\"><property name=\"title\" translatable=\"yes\">Extension</property"
+  "><child><object class=\"GtkCellRendererText\" id=\"cellrenderertext2\"/"
+  "><attributes><attribute name=\"text\">1</attribute></attributes></child"
+  "></object></child></object></child><child type=\"label\"><object class="
+  "\"GtkLabel\" id=\"label1\"><property name=\"visible\">True</property><p"
+  "roperty name=\"can_focus\">False</property><property name=\"label\" tra"
+  "nslatable=\"yes\">Select File Types (By Extension)</property></object><"
+  "/child></object><packing><property name=\"expand\">False</property><pro"
+  "perty name=\"fill\">True</property><property name=\"position\">2</prope"
+  "rty></packing></child></object></child><action-widgets><action-widget r"
+  "esponse=\"-6\">button1</action-widget><action-widget response=\"-3\">bu"
+  "tton2</action-widget></action-widgets></object></interface>"
+};
+
+static const unsigned save_playlist_ui_length = 4237u;
+
